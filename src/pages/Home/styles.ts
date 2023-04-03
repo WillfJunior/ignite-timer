@@ -30,7 +30,7 @@ const BaseInput = styled.input`
     color: ${props => props.theme['gray-100']};
 
     &:focus {
-        box-shadow:none;
+        box-shadow:none; // box shadow usado para criar sombra nos elementos
         border-color: ${props => props.theme['green-500']};
     }
 
@@ -62,7 +62,7 @@ export const FormContainer = styled.div`
     color: ${props => props.theme['gray-100']};
     font-size: 1.125rem;
     font-weight: bold;
-    flex-wrap: wrap;
+    flex-wrap: wrap; // Define se os itens vao ficar na mesma linha ou se vao quebrar para linha debaixo
 
 `
 
@@ -70,7 +70,7 @@ export const CountdownContainer = styled.div`
 
     font-family: 'Roboto Mono', monospace;
     font-size: 10rem;
-    line-height: 8rem;
+    line-height: 8rem; // Controla o espaçamento entre as linhas de um texto
     color: ${props => props.theme['gray-100']};
 
     display: flex;
